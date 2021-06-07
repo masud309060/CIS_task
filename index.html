@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="header">
+        <h3>Purchase Items</h3>
+        <button class="add_more_btn">Add More</button>
+    </div>
+    <div class="table_row_1">
+        <div></div>
+        <div>Item Code</div>
+        <div>Item Descript</div>
+        <div>Quantity</div>
+        <div>Unit Price($)</div>
+        <div>Amount</div>
+    </div>
+    <div class="table_row_2">
+        <button>dlt</button>
+        <div>
+            <input class="code_input" type="text" value="" placeholder="Item Code">
+        </div>
+        <div>
+            <input class="description_input" type="text" placeholder="Enter Item Description">
+        </div>
+        <div>
+            <input class="quantity_input" type="number" placeholder="0">
+        </div>
+        <div>
+            <input class="unit_price_input" type="number" placeholder="0">
+        </div>
+        <div>
+            <input class="amount_input" type="number" placeholder="0">
+        </div>
+    </div>
+    <div class="table_row_3">
+        <strong>Gross total</strong>
+        <strong class="gross_total">$0.00</strong>
+    </div>
+    <div class="table_row_4">
+        <p>Discount</p>
+        <div>
+            <input class="discount_input" type="number" placeholder="0">
+        </div>
+    </div>
+    <div class="table_row_5">
+        <strong>After Discount</strong>
+        <strong class="after_discount">$0.00</strong>
+    </div>
+    <div class="table_row_6">
+        <p>Sales Tax</p>
+        <div>
+            <input class="sales_tax_input" type="number" placeholder="0">
+        </div>
+    </div>
+    <div class="table_row_7">
+        <p>Frieght</p>
+        <div>
+            <input class="frieght_input" type="number" placeholder="0">
+        </div>
+    </div>
+    <div class="table_row_8">
+        <strong>Grand total</strong>
+        <strong class="grand_total">$0.00</strong>
+    </div>
+
+    <div class="action_btn_group">
+        <button class="save_btn">Save Purchase Order</button>
+        <button class="cencel_btn">Cencel</button>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

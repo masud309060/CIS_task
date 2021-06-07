@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	max-width: 1200px;
+	margin: 1rem;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+.table_row_1 {
+	display: grid;
+	grid-template-columns: 30px 100px 1fr 100px 100px 100px;
+	background-color: #ebf0f4;
+}
+.table_row_1 > div {
+	border: 1px solid #ddd;
+	padding: 2px 5px;
+}
+.table_row_2 {
+	display: grid;
+	grid-template-columns: 30px 100px 1fr 100px 100px 100px;
+}
+.table_row_2 > div {
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+.description_input {
+	width: 95%;
+	border: 1px solid #ddd;
+	padding: 5px;
+	overflow: hidden;
+}
+.code_input,
+.quantity_input,
+.unit_price_input,
+.amount_input {
+	max-width: 75px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.table_row_3,
+.table_row_4,
+.table_row_5,
+.table_row_6,
+.table_row_7,
+.table_row_8 {
+	display: grid;
+	grid-template-columns: 1fr 100px;
+	text-align: right;
+	align-content: center;
+}
+.table_row_3 > strong,
+.table_row_5 > strong,
+.table_row_8 > strong {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.table_row_4 > p,
+.table_row_6 > p,
+.table_row_7 > p {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.table_row_4 > div,
+.table_row_6 > div,
+.table_row_7 > div {
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.table_row_4 > div > input,
+.table_row_6 > div > input,
+.table_row_7 > div > input {
+	max-width: 75px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+.action_btn_group {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+.save_btn, .add_more_btn {
+	padding: 5px 10px;
+	background-color: #334961;
+	color: #ddd;
+	border: 0;
+	outline: 0;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.save_btn:hover, .add_more_btn:hover {
+	background-color: #3a5d81;
+}
+.cencel_btn {
+	padding: 5px 10px;
+	outline: 0;
+	background: none;
+	color: #666;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+.cencel_btn:hover {
+    background-color: #ddd;
+}
+
+input[type="number"] {
+	text-align: right;
+}
+input[type="number"]:focus {
+	text-align: left;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
